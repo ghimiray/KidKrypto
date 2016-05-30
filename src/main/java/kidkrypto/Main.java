@@ -27,11 +27,7 @@ public class Main {
     int numOfNodes;                 // denotes the total number of nodes
     Random rand = new Random();     // randomizer instance
     
-    /**
-     * This method creates the unweighted graph
-     * @param numNodes how many nodes will the graph contains 
-     * @return Graph the unweighted graph
-     */
+
     public Graph createPublicUnweightedgraph(int numNodes) {
         graph = new SingleGraph("Graph");
         numOfNodes = numNodes; // initialize num of nodes
