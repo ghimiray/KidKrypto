@@ -383,6 +383,8 @@ public class Main {
         Graph intermediateGraph = Graphs.clone(mk.graph);
         intermediateGraph.display();
         
+        
+        
         //Calculate new weight and dsiplay the updates
         mk.calculateNewWeight();
         mk.graph.display();
